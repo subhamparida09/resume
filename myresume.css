@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+header ul li {
+    margin: 5px 0;
+}
+
+header a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 250px;
+}
+
+/* Social Media Icon */
+#Contact img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section p, section li {
+    margin: 8px 0;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* Education and Skills Section Styling */
+section p strong {
+    color: #444;
+    font-weight: bold;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 15px;
+}
+
+section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    header img {
+        width: 100px;
+    }
+}
+
